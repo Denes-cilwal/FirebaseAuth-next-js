@@ -1,5 +1,6 @@
 import firebase from "firebase/app";
 import * as Process from "process";
+import 'firebase/auth';
 
 const firebaseConfig = {
     apiKey: Process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
@@ -12,10 +13,11 @@ const firebaseConfig = {
 };
 
 // Initialise firebase, if firebase instance doesn't exist
-if(!firebase.apps.length){
+if(!firebase.apps.length) {
     firebase.initializeApp(firebaseConfig)
-
 }
+
+export default firebase;
 
 
 
