@@ -35,4 +35,4 @@ const LoggedIn = () => {
     )
 }
 
-export default LoggedIn;
+export  default  LoggedIn;

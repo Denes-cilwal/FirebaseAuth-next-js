@@ -16,7 +16,7 @@ const formatAuthUser = (user) => ({
             return;
         }
         setLoading(true)
-        var formattedUser = formatAuthUser(authState);
+        let formattedUser = formatAuthUser(authState);
         setAuthUser(formattedUser);
         setLoading(false);
 
@@ -54,4 +54,4 @@ const formatAuthUser = (user) => ({
     };
 }
 
-export  default useFirebaseAuth()
+export  default useFirebaseAuth;
