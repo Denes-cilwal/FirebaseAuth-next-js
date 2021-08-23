@@ -1,5 +1,5 @@
 # FirebaseAuth-next-js
 
-[] Set up firebase
-[] Authentication and Context Provider
-[] Protected Routes
+- [] Set up firebase
+- [] Authentication && text Provider
+- [] Proteced Routes
